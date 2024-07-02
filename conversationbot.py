@@ -8,7 +8,7 @@
 import os
 import openai
 import json
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 openai.api_key = os.getenv("OPENAI_API_KEY")
 chat_log = []
 
